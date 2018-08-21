@@ -1,0 +1,42 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+/* TRANSISTION: The animation code */
+
+
+@keyframes trump {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+
+}
+
+img {display: block;
+  margin-top: 50px;
+  margin-left: 40%;
+  margin-right: 40%;
+  animation-name: trump;
+  animation-duration: 500ms;
+animation-iteration-count: infinite;}
+
+
+body {
+    background-image: url("../images/univers.jpg");
+}
+
+h1 {
+    animation-name: andersAnd;
+    animation-duration: 2s;
+		animation-timing-function: ease-in-out;
+		/*animation-iteration-count: infinite; */
+}
+
+p {
+	animation-name: bedstemorAnd;
+	animation-duration: 2s;
+}
